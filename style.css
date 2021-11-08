@@ -1,0 +1,96 @@
+* {  
+box-sizing: border-box;   
+}
+ 
+h1 {
+font-size: 40px;
+color: rgb(29, 17, 17);
+margin-bottom: 30px;
+font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+text-align: center;
+
+}
+  
+
+  
+.section { 
+background-color: rgb(255, 239, 239);
+border: 1.2px solid black;
+text-align: justify;
+position: relative;
+margin-top: 18px; 
+margin-right: 18px; 
+padding: 2px;
+
+}
+
+p {
+padding: 16px 5px 0px 6px;
+font-size: 15px;
+position: relative;
+font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+
+  
+span {
+font-size: 25px;
+width: 150px;
+border: 1px solid black;
+float: right; top :0; right: 0; margin: 0;
+position: absolute;
+font-weight: bold;
+text-align: center;
+
+}
+
+#A1 {
+background-color: rgb(250, 26, 26);
+color: rgb(0, 0, 0);
+}
+
+#B2 {
+background-color: rgb(167, 5, 5);
+color: rgb(250, 250, 250);
+}
+
+#C3 {
+background-color: rgb(255, 255, 0);
+color: rgb(0, 0, 0);
+}
+  
+  
+.row {
+width: 100%;
+}
+
+/* phone */
+@media (max-width: 767px)  {
+.col-sx-12 {
+float: left;
+width: 100%;
+}
+}
+  
+/*Desktop */
+  
+@media (min-width: 992px) {
+  
+.col-lg-4 {
+width: 33.33%;
+float: left;
+}
+}
+  
+/*Tablet*/
+@media (min-width: 768px) and (max-width: 991px) {
+  
+.col-md-6 {
+width: 50%;
+float: left;
+}
+.col-md-12 {
+width: 100%;
+float: left;
+}
+}
